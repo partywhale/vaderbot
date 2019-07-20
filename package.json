@@ -1,0 +1,10 @@
+{
+    "name": "vaderbot",
+    "version": "1.0.0",
+    "description": "A Darth Vader bot for Discord",
+    "main": "index.js",
+    "author": "Sophie and James",
+    "dependencies": {
+        "discord.js": "^11.5.1"
+    }
+}
