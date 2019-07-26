@@ -9,5 +9,6 @@ module.exports = async function(message) {
 const possibleSelections = [
     `That name no longer has any meaning for me!`,
     `Anakin Skywalker was weak. I destroyed him.`,
-    `No. Anakin is dead. I killed him.`
+    `No. Anakin is dead. I killed him.`,
+    `Anakin was a child. I am well accustomed to killing children.`
 ];

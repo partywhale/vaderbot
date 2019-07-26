@@ -8,5 +8,8 @@ module.exports = async function(message) {
 
 const possibleSelections = [
     `I sense something. A presence I've not felt since...`,
-    `Obi-Wan has taught you well.`
+    `Obi-Wan has taught you well.`,
+    `Your powers are weak, old man.`,
+    `You should not have come back.`,
+    `I don't want to hear any more about Obi-Wan.`
 ];
