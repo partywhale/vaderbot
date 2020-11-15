@@ -2,10 +2,6 @@
 const Discord = require('discord.js');
 
 
-// Grabs the auth.json file so the bot can login with Discord token
-const auth = require('./auth.json');
-
-
 // Grabs the 'commands' files
 // Response relegated to separate file when more than a single response + console.log to keep index.js cleaner
 const darthPlagueis = require('./commands/darthPlagueis');
@@ -303,4 +299,5 @@ client.on('message', async (message) => {
 
 
 // Logs in, establishing websocket connection
-client.login(auth.token);
+// BOT_TOKEN env used for Heroku config
+client.login(process.env.BOT_TOKEN);
