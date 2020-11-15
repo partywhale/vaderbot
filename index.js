@@ -236,12 +236,12 @@ client.on('message', async (message) => {
         await message.channel.send(
             `I find your lack of faith disturbing.`
         );
-        await console.log(`[${message.guild.name}][${message.channel.name}] ${message.author.username} summoned Darth Vader.`);
+        await console.log(`[${message.guild.name}][${message.channel.name}] ${message.author.username} was rebuked for their lack of faith.`);
     } else if ((saniTerm.includes('dont try to frighten us')) || (saniTerm.includes('sad devotion')) || (saniTerm.includes('ancient religion')) || (saniTerm.includes('stolen data tapes'))) {
         await message.channel.send(
             `I find your lack of faith disturbing.`
         );
-        await console.log(`[${message.guild.name}][${message.channel.name}] ${message.author.username} summoned Darth Vader.`);
+        await console.log(`[${message.guild.name}][${message.channel.name}] ${message.author.username} was rebuked for their lack of faith.`);
     } else if ((saniTerm.includes(' diplomat')) || (saniTerm.startsWith('diplomat'))) {
         await diplomat(message);
     } else if ((saniTerm.includes(' honored')) || (saniTerm.startsWith('honored')) || (saniTerm.includes(' honoured')) || (saniTerm.startsWith('honoured'))) {
