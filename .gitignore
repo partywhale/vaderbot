@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# So the auth doesn't get overwritten when deployed
+auth.json
